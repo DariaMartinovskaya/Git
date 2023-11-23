@@ -1,15 +1,3 @@
-cd Git_intro
-git clone https://github.com/DariaMartinovskaya/Terminal.git - создание копии (удаленного) репозитория
-git add X.txt (добавление файла в область подготовленнных файлов)
-git add . (отправить всё)
-git status - отображение состояния рабочего каталога
-git commit -m - сохранение версий ("замораживание историй"), где "-m" означает "message" (=комментарий)
-git push - отправка локальной ветки на удаленный репозиторий
-git commit -a -m (в одну команду можно, если файл "modified")
-xim new.json. i - edit, esc + :wq - exit from edit mode
-git pull - синхронизация внешнего и локального репозитория
-====================================
-
 GITHub. Homework 1
 
 JSON
@@ -71,3 +59,16 @@ TXT
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT: Choose bug_report.txt > Edit this file button
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе: [Commit changes...] Button > [Commit changes] Button
  18. Синхронизировать внешний и локальный репозиторий TXT: git pull
+
+=============
+Основные команды:
+cd Git_intro
+git clone https://github.com/DariaMartinovskaya/Terminal.git - создание копии (удаленного) репозитория
+git add X.txt (добавление файла в область подготовленнных файлов)
+git add . (отправить всё)
+git status - отображение состояния рабочего каталога
+git commit -m - сохранение версий ("замораживание историй"), где "-m" означает "message" (=комментарий)
+git push - отправка локальной ветки на удаленный репозиторий
+git commit -a -m (в одну команду можно, если файл "modified")
+xim new.json. i - edit, esc + :wq - exit from edit mode
+git pull - синхронизация внешнего и локального репозитория
