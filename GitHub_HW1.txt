@@ -3,7 +3,7 @@ git clone https://github.com/DariaMartinovskaya/Terminal.git - создание 
 git add X.txt
 git add . (отправить всё)
 git status - отображение состояния рабочего каталога
-git commit -m - сохранение версий ("замораживание историй")
+git commit -m - сохранение версий ("замораживание историй"), где "-m" означает "message" (=комментарий)
 git push - отправка локальной ветки на удаленный репозиторий
 git commit -a -m (если файл "modified")
 xim new.json. i - edit, esc + :wq - exit from edit mode
