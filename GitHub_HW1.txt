@@ -1,6 +1,6 @@
 cd Git_intro
 git clone https://github.com/DariaMartinovskaya/Terminal.git - создание копии (удаленного) репозитория
-git add X.txt
+git add X.txt (добавление файла в область подготовленнных файлов)
 git add . (отправить всё)
 git status - отображение состояния рабочего каталога
 git commit -m - сохранение версий ("замораживание историй"), где "-m" означает "message" (=комментарий)
