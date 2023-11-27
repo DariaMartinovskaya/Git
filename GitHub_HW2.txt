@@ -34,5 +34,7 @@ git branch -d "branch's name" - удаление ветки
 git push origin --delete existing_branch_name - стереть удалённую ветку
 git fetch origin "branch's name" - возврат удаленной ветки
 git merge - выполняет слияние отдельных направлений разработки, созданных с помощью команды git branch
+git merge --abort - прерывание слияния в случае конфликта
+git reset - восстановление конфликтующих файлов до стабильного состояния при конфликте
 
 Расхождения внешнего и локального репозитория: git checkout main => ls -la => git fetch (смотрим есть ли изменения) => git pull
