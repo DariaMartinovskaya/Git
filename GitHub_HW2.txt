@@ -10,14 +10,14 @@ GITHub. Homework 2
 - git branch MobileTesting
 
 2. Запушить все ветки на внешний репозиторий: git push -u origin --all
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта: git checkout Bag Reports >> vim BagReport.txt >> i + "Text" + esc + :wq
-4. Запушить структуру баг репорта на внешний репозиторий: git add BagReport.txt >> git commit -m BagReport.txt >> git push 
-5. Вмержить ветку Bag Reports в Main: git checkout main >> git merge BagReports
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта: git checkout Bag Reports => vim BagReport.txt => i + "Text" + esc + :wq
+4. Запушить структуру баг репорта на внешний репозиторий: git add BagReport.txt => git commit -m BagReport.txt => git push 
+5. Вмержить ветку Bag Reports в Main: git checkout main => git merge BagReports
 6. Запушить main на внешний репозиторий: git push
-7. В ветке CheckLists набросать структуру чек листа: git checkout CheckLists >> vim Checklist.txt >> i + "Text" + esc + :qw
-8. Запушить структуру на внешний репозиторий: git add Checklist.txt >> git commit -m Checklist.txt >> git push
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main: Web Git Hub >> Click [Compare & pull request] Button >> Click [Create ull request] Button >> Click [Merge pull request] Button >> Click [Confirm merge] Button
-10. Синхронизировать Внешнюю и Локальку: git checkout main >> git pull
+7. В ветке CheckLists набросать структуру чек листа: git checkout CheckLists => vim Checklist.txt => i + "Text" + esc + :qw
+8. Запушить структуру на внешний репозиторий: git add Checklist.txt => git commit -m Checklist.txt => git push
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main: Web Git Hub => Click [Compare & pull request] Button => Click [Create ull request] Button => Click [Merge pull request] Button => Click [Confirm merge] Button
+10. Синхронизировать Внешнюю и Локальку: git checkout main => git pull
 
 =============
 Основные команды: 
@@ -34,4 +34,4 @@ git branch -d "branch's name" - удаление ветки
 git fetch origin "branch's name" - возврат удаленной ветки
 git merge - выполняет слияние отдельных направлений разработки, созданных с помощью команды git branch
 
-Расхождения внешнего и локального репозитория: git checkout main > ls -la > git fetch (смотрим есть ли изменения) > git pull
+Расхождения внешнего и локального репозитория: git checkout main => ls -la => git fetch (смотрим есть ли изменения) => git pull
