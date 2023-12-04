@@ -1,26 +1,26 @@
 GITHub. Homework 2
 
-1. На локальном репозитории сделать ветки для: git branch 
+1. Create branches for on the local repository: git branch 
 - git branch Postman
 - git branch Jmeter
 - git branch CheckLists
-- git branch BagReports
+- git branch BugReports
 - git branch SQL
 - git branch Charles
 - git branch MobileTesting
 
-2. Запушить все ветки на внешний репозиторий: git push -u origin --all
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта: git checkout Bag Reports => vim BagReport.txt => i + "Text" + esc + :wq
-4. Запушить структуру баг репорта на внешний репозиторий: git add BagReport.txt => git commit -m BagReport.txt => git push 
-5. Вмержить ветку Bag Reports в Main: git checkout main => git merge BagReports
-6. Запушить main на внешний репозиторий: git push
-7. В ветке CheckLists набросать структуру чек листа: git checkout CheckLists => vim Checklist.txt => i + "Text" + esc + :qw
-8. Запушить структуру на внешний репозиторий: git add Checklist.txt => git commit -m Checklist.txt => git push
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main: Web Git Hub => Click [Compare & pull request] Button => Click [Create ull request] Button => Click [Merge pull request] Button => Click [Confirm merge] Button
-10. Синхронизировать Внешнюю и Локальку: git checkout main => git pull
+2. Push all branches to remote repository: git push -u origin --all
+3. Create text document with the structure of bug report in the BugReports branch: git checkout BugReports => vim BugReport.txt => i + "Text" + esc + :wq
+4. Push structure of bug report to external repository: git add BugReport.txt => git commit -m BugReport.txt => git push 
+5. Merge BugReports branch to Main branch: git checkout main => git merge BugReports
+6. Push main to external repository: git push
+7. Create the structure of bug report in CheckLists branch: git checkout CheckLists => vim Checklist.txt => i + "Text" + esc + :qw
+8. Push structure to external repository: git add Checklist.txt => git commit -m Checklist.txt => git push
+9. Create Pull Request of CheckLists branch to main on external repository: Web Git Hub => Click [Compare & pull request] Button => Click [Create ull request] Button => Click [Merge pull request] Button => Click [Confirm merge] Button
+10. Synchronize external and local repositories: git checkout main => git pull
 
 =============
-Основные команды: 
+Main commands: 
 git clone - создание копии (удаленного) репозитория
 git checkout - позволяет переключаться между последними коммитами (ветками)
 git checkout -b - создание ветки и переключение на нее
@@ -41,4 +41,4 @@ git restore <file> - отмена измененного файла
 git rebase branch_name - перебазирование (это процесс объединения или перемещения последовательности коммитов на новый родительский снимок)
 rm -rf .git - удалить репозиторий локально
 
-Расхождения внешнего и локального репозитория: git checkout main => ls -la => git fetch (смотрим есть ли изменения) => git pull
+Discrepancies between external and local repositories: git checkout main => ls -la => git fetch (if there are changes) => git pull
