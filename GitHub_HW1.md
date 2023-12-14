@@ -33,7 +33,8 @@ Web Git Hub => Repositories => "JSON" => Click [Add file] Button => Choose "Crea
 Choose bug_report.json => Edit this file button 
 #### 19. Commit changes (save) changes on the web interface
 [Commit changes...] Button => [Commit changes] Button
-#### 20. Synchronize external and local JSON repositories git pull
+#### 20. Synchronize external and local JSON repositories 
+git pull
 
 ## XML
 #### 21. Create external repository named XML
