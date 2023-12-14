@@ -108,7 +108,8 @@ Web Git Hub => Repositories => "XML" => Click [Add file] Button => Choose "Creat
 Choose bug_report.txt => Edit this file button
 #### 17. Commit changes (save) on the web interface
 [Commit changes...] Button => [Commit changes] Button
-#### 18. Synchronize external and local TXT repositories git pull
+#### 18. Synchronize external and local TXT repositories 
+git pull
 
 =============
 ## Main commands:
